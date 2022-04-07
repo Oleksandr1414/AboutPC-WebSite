@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Игровая гарнитура</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="shortcut icon" href="img/icon_headset.png" type="image/x-icon">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="styleheadset.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Play|Roboto+Mono|Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+     
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+    $('.scrollup').fadeIn();
+    } else {
+    $('.scrollup').fadeOut();
+    }
+    });
+     
+    $('.scrollup').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+    });
+     
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 2000);
+    });
+    });
+    </script>
+    
+</head>
+
+<body>
+
+  <a href="#" class="scrollup waves-effect">Наверх</a>
+
+  <nav id="menu" class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button"
+      data-toggle="collapse" data-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class=""><img src="https://img.icons8.com/color/26/000000/menu.png"></span>
+      </button>
+      <div class="cntr collapse navbar-collapse" id="navbarContent">
+         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+             <a href="#" class="nav-link waves-effect white-text wow fadeInDown">Клавиатура</a>
+          </li>
+          <li class="nav-item">
+             <a href="#" class="nav-link waves-effect white-text wow fadeInDown">Мышь</a>     
+          </li>
+           <li class="nav-item">
+             <a href="#" class="nav-link waves-effect white-text wow fadeInDown">Наушники</a>
+          </li>
+           <li class="nav-item">
+             <a href="#" class="nav-link waves-effect white-text wow fadeInDown">Микрофон</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link waves-effect white-text wow fadeInDown">Коврик</a>
+           </li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="logo" id="PC">
+    <h1 class="logotext wow fadeInDown">Игровая гарнитура</h1>
+  </div>
+
+  <div class="bottomlogo">
+    <p>Верстка сайта html, канал связи: _________________________ .</p>
+  </div>
+
+
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.js"></script>
+  <script> new WOW().init();</script>
+</body>
+
+</html>

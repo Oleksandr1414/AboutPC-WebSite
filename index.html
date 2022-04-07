@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Как собрать игровой ПК</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/icon_pc.png" type="image/x-icon">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Play|Roboto+Mono|Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+     
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+    $('.scrollup').fadeIn();
+    } else {
+    $('.scrollup').fadeOut();
+    }
+    });
+     
+    $('.scrollup').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+    });
+     
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 2000);
+    });
+    });
+    </script>
+    
+</head>
+
+<body>
+
+  <a href="#" class="scrollup waves-effect">Наверх</a>
+
+  <nav id="menu" class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button"
+      data-toggle="collapse" data-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class=""><img src="https://img.icons8.com/color/26/000000/menu.png"></span>
+      </button>
+      <div class="cntr collapse navbar-collapse" id="navbarContent">
+         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+             <a href="#Comp" class="nav-link waves-effect white-text wow fadeInDown">Зачем нужен игровой ПК?</a>
+          </li>
+          <li class="nav-item">
+             <a href="#Systemblock" class="nav-link waves-effect white-text wow fadeInDown">Системный блок</a>
+          </li>
+           <li class="nav-item">
+             <a href="#Monitor" class="nav-link waves-effect white-text wow fadeInDown">Монитор</a>
+          </li>
+           <li class="nav-item">
+             <a href="#Headset" class="nav-link waves-effect white-text wow fadeInDown">Гарнитура</a>
+          </li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="logo" id="PC">
+    <h1 class="logotext wow fadeInDown">Как собрать игровой ПК</h1>
+  </div>
+
+  <div class="comp wow fadeIn" id="Comp">
+    <h6 class="comptext wow fadeInDown">Зачем нужен игровой ПК?</h6>
+    <p class="sl wow fadeInDown">___________________</p>
+    <p class="comptext1 wow fadeInDown">&nbsp;Игровой компьютер отличается от офисного ПК примерно так же, как болид "Formula 1" 
+      от хэтчбека Ford Focus - и по применению и по цене. В игровом ПК сочетаются самые 
+      крутые комплектующие, дающие максимальную производительность.</p>
+    <p class="comptext1 wow fadeInDown">&nbsp;Владелец игрового компьютера - это конечно фанат самых новых игр, но ещё это техногик,
+      добивающийся от своей железяки максимальной производительности. Настоящий геймер живёт 
+      от апгрейда до апгрейда, следит за всеми новостями ИТ, разбирается в мельчайших 
+      тонкостях железа и софта -, короче говоря, это превращается в образ жизни и очень часто
+      в высокооплачиваемую профессию - "компьютерщика", сисадмина или программиста.</p>
+    <p class="comptext1 wow fadeInDown">&nbsp;Ну что тут можно сказать?..</br>
+      Если в детстве у тебя не было велосипеда, а сейчас у тебя Бентли, то в детстве у тебя всё равно не было велосипеда.
+      С игровыми компьютерами - то же самое :)</p>
+    
+  </div>
+
+  <div class="systembl wow fadeIn" id="Systemblock">
+    <h6 class="systext wow fadeInUp">Комплектация</br>системного блока</h6>
+    <p class="sl1 wow fadeInUp">____________</p>
+    <p class="punctsys wow fadeInUp">Корпус ◄</p>
+    <p class="punctsys wow fadeInUp">Процессор ◄</p>
+    <p class="punctsys wow fadeInUp">Материнская плата ◄</p>
+    <p class="punctsys wow fadeInUp">Оперативная память ◄</p>
+    <p class="punctsys wow fadeInUp">Жесткий диск ◄</p>
+    <p class="punctsys wow fadeInUp">Видеокарта ◄</p>
+    <p class="punctsys wow fadeInUp">Блок питания ◄</p>
+    <p class="punctsys wow fadeInUp">Система охлаждения ◄</p>
+    <p class="punctsys wow fadeInUp">Подцветка (по желанию) ◄</p>
+    <a href="systemblock.html"><p class="readnextr wow fadeInUp">Изучить больше...</p></a>
+  </div>
+
+  <div class="monitor hidden wow fadeIn" id="Monitor">
+      <h6 class="montext wow fadeInUp"></a>Монитор</h6>
+      <p class="sl2 wow fadeInUp">_____________</p>
+      <p class="monptext1 wow fadeInUp">Основные характеристики:</p>
+      <p class="monptext wow fadeInUp">► Размер экрана</p>
+      <p class="monptext wow fadeInUp">► Разрешение экрана</p>
+      <p class="monptext wow fadeInUp">► Матрица, время отклика</p>
+      <p class="monptext wow fadeInUp">► HDR</p>
+      <p class="monptext wow fadeInUp">► Покрытие</p>
+      <p class="monptext wow fadeInUp">► Разъемы подключения</p>
+      <p class="monptext wow fadeInUp">► Яркость и контрастность</p>
+      <a href="monitor.html"><p class="readnextl wow fadeInUp">Изучить больше...</p></a>
+  </div>
+
+  <div class="headset  wow fadeIn" id="Headset">
+    <h6 class="headtext wow fadeInUp">Игровая гарнитура</h6>
+    <p class="sl1 wow fadeInUp">_____________</p>
+    <p class="headtext1 wow fadeInUp">Клавиатура ◄</p>
+    <p class="headtext1 wow fadeInUp">Мышь ◄</p>
+    <p class="headtext1 wow fadeInUp">Коврик ◄</p>
+    <p class="headtext1 wow fadeInUp">Наушники ◄</p>
+    <p class="headtext1 wow fadeInUp">Микрофон ◄</p>
+    <a href="headset.html"><p class="readnextr wow fadeInUp">Изучить больше...</p></a>
+  </div>
+
+  <div class="bottomlogo">
+    <p>Верстка сайта на html: olexander11441144@gmail.com .</p>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.js"></script>
+  <script> new WOW().init();</script>
+</body>
+
+</html>

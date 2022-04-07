@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Как собрать игровой ПК</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="shortcut icon" href="img/icon_monitor.png" type="image/x-icon">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="stylemonitor.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Play|Roboto+Mono|Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+     
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+    $('.scrollup').fadeIn();
+    } else {
+    $('.scrollup').fadeOut();
+    }
+    });
+     
+    $('.scrollup').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+    });
+     
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 2000);
+    });
+    });
+    </script>
+    
+</head>
+
+<body>
+
+  <a href="#" class="scrollup waves-effect">Наверх</a>
+  <a href="#" class="back waves-effect" onclick="javascript:history.back(); return false;""></a>
+
+  <nav id="menu" class="navbar fixed-top navbar-expand-xx navbar-light scrolling-navbar">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button"
+      data-toggle="collapse" data-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class=""><img src="https://img.icons8.com/color/26/000000/menu.png"></span>
+      </button>
+      <div class="cntr collapse navbar-collapse" id="navbarContent">
+         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+             <a href="#Monsize" class="nav-link waves-effect white-text wow fadeInDown">Размер экрана</a>
+          </li>
+          <li class="nav-item">
+             <a href="#Displaysize" class="nav-link waves-effect white-text wow fadeInDown">Разрешение экрана</a>     
+          </li>
+           <li class="nav-item">
+             <a href="#matriza" class="nav-link waves-effect white-text wow fadeInDown">Матрица, время отклика</a>
+          </li>
+          <li class="nav-item">
+              <a href="#hdr" class="nav-link waves-effect white-text wow fadeInDown">HDR</a>
+           </li>
+           <li class="nav-item">
+              <a href="#texture" class="nav-link waves-effect white-text wow fadeInDown">Покрытие</a>
+           </li>
+           <li class="nav-item">
+             <a href="#port" class="nav-link waves-effect white-text wow fadeInDown">Разъемы подключения</a>
+          </li>
+          <li class="nav-item">
+             <a href="#iarkost" class="nav-link waves-effect white-text wow fadeInDown">Яркость и контрастность</a>
+          </li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="logo" id="PC">
+    <h1 class="logotext wow fadeInDown">Монитор</h1>
+  </div>
+
+  <div class="monsize" id="Monsize">
+    <h6 class="monsizetext wow fadeInUp">Размер экрана</h6>
+    <p class="sl1 wow fadeInUp">__________</p>
+    <p class="monsizetext1 wow fadeInUp">Диагональ — первое, на что обращают внимание при выборе монитора. Правило «больше = 
+      лучше» работает, но с оговоркой. Из-за большей плотности пикселей на 21-дюймовом экране 
+      разрешение FullHD выглядит лучше, чем на 27-дюймовом.</p>
+    <p class="monsizetext1 wow fadeInUp">На рынке современных игровых мониторов с высокой частотой
+       развертки вы можете встретить модели двух основных форматов (16:9 и 21:9) и пару 
+       фактически эксклюзивных мониторов с нестандартным соотношением 32:9 и 32:10.</p>
+    <img src="img/msize.png" class="msizeimg wow fadeInUp" alt="">
+    <div class="triplemon wow fadeInUp">
+      <p class="monsizetext1 textleft wow fadeInUp">&nbsp;&nbsp;&nbsp;С выбором соотношения сторон дела обстоят чуть сложнее. Здесь следует 
+      определиться с тем, что́ вы хотите получить. Часто смотрите фильмы, снятые в правильном 
+      «киношном» формате 2,35:1/2,4:1, предпочитаете одновременно видеть на экране окна трех и
+      более приложений, занимаетесь обработкой и ретушью фотографий, видеомонтажом, а в 
+      современных играх не откажетесь от расширения поля зрения? В этом 
+      случае настоятельно рекомендуем выбирать среди крупных моделей 21:9 и, возможно,
+      рассмотреть мониторы форматов 32:9 и 32:10, по сути являющиеся «склейкой»
+      двух 27-дюймовых Full HD (49-дюймовый вариант) или двух 24-дюймовых WUXGA
+      (43-дюймовая модель). Также можно купить 2/3 монитора и подключить их к 
+      видеокарте(если она имеет нужное количество выходов под монитор).</p>
+    </div>
+  </div>
+
+  <div class="displaysize" id="Displaysize">
+    <h6 class="monsizetext wow fadeInUp">Разрешение экрана</h6>
+    <p class="sl1 wow fadeInUp">__________</p>
+    <p class="monsizetext1">
+        В зависимости от выбранной диагонали экрана и соотношения 
+        сторон вы можете остаться с несколькими вариантами рабочего 
+        разрешения, а можете оказаться ограничены одним единственным вариантом.
+    </p>
+    <p class="monsizetext1">
+        Чем выше разрешение экрана, тем выше уровень плотности пикселей (ppi),
+         непосредственно влияющий на четкость картинки. Разница достаточно хорошо 
+         видна при размещении моделей с разным уровнем ppi друг рядом с другом, она 
+         бросается в глаза при переходе от модели с низким ppi к решению с высоким.
+    </p>
+    <img src="img/displaysize.png" alt="" class="dsizeimg">
+  </div>
+
+  <div class="matriza" id="matriza">
+    <h6 class="monsizetext wow fadeInUp">Матрица, время отклика</h6>
+    <p class="sl1 wow fadeInUp">__________</p>
+    <h5 class="monsizetext2 wow fadeInUp">Типы матриц</h5>
+    <div class="flex">
+      <div class="matrizatn wow fadeInUp">
+        <p><em class="fs23">TN</em> -матрицы — самые старые и недорогие. Экономные геймеры выбирают
+           их за быстрое время отклика, которое не отменяет отвратительно
+            маленьких углов обзора.</p>
+        <p class="left">+ высокая доступность (за редким исключением)</p>
+        <p class="left">+ максимальная скорость отклика и варианты с самой высокой частотой 
+          вертикальной развертки (200-240 Гц)</p>
+        <p class="left">− плохие углы обзора, низкая стабильность картинки</p>
+        <p class="left">− бандинг, постеризация изображения</p>
+        <p class="left">− выраженный «кристаллический эффект» (не всегда, но часто)</p>
+      </div>
+      <div class="matrizaips wow fadeInUp">
+        <p><em class="fs23">IPS (In-Plane Switching)</em> -матрицы — идеальны по цветопередаче, 
+          контрастности и углам обзора — 178 градусов.</p>
+        <p class="left">+ высокая скорость отклика (в большинстве случаев)</p>
+        <p class="left">+ практически неразличимый «кристаллический эффект»</p>
+        <p class="left">+ хорошие углы обзора и стабильность картинки</p>
+        <p class="left">+ качественные градиенты и отсутствие бандинга</p>
+        <p class="left">− самые дорогие при прочих равных (диагональ, разрешение, частота)</p>
+      </div>
+      <div class="matrizava wow fadeInUp">
+        <p><em class="fs23">MVA/VA (Vertical Alignment)</em> создавали как альтернативу IPS, 
+          чтобы снизить время отклика и конечную стоимость мониторов.</p>
+        <p class="left">+ глубокий черный цвет (за редким исключением)</p>
+        <p class="left">+ незаметный «кристаллический эффект»</p>
+        <p class="left">средние углы обзора и стабильность картинки</p>
+        <p class="left">бандинг, плохие градиенты (не всегда, но часто)</p>
+        <p class="left">− эффект Black-Crush</p>
+        <p class="left">− самая низкая скорость отклика (особенно на темных переходах)</p>
+      </div>
+    </div>
+    <div class="flex pt1">
+      <img src="img/mattip.jpg" class="matimg wow fadeInUp" alt="">
+      <img src="img/matriza1.png" class="matimg1 wow fadeInUp" alt="">
+    </div>
+    <p class="monsizetext1">Чем меньше, тем лучше. Средний показатель 4-8 м/с, 
+      киберспортсмены и про-геймеры предпочитают мониторы с временем отклика 1-2 м/с.
+       Больший показатель чреват размытостью изображения, шлейфами за движущимися объектами
+        и бесконечным циклом смертей в онлайн-шутерах. Зато какая отговорка: «Не руки кривые,
+         а на мониторе время отклика высокое!».</p>
+  </div>
+
+  <div class="hdr" id="hdr">
+    <h6 class="monsizetext wow fadeInUp">HDR</h6>
+    <p class="sl1 wow fadeInUp">__________</p>
+    <p class="monsizetext1 wow fadeInUp"><em>HDR (High Definition Range)</em> — технология расширенного динамического 
+      диапазона, которая повышает контрастность изображения и глубину отображаемого экраном цвета.
+       Разработкой HDR занимается несколько компаний, поэтому конкурирующих форматов накопилось достаточно.
+        Наиболее популярные — DolbyVision и HDR10.</p>
+    <img src="img/hdr1.jpg" class="hdrimg wow fadeInUp" alt="">
+    <img src="img/hdr2.png" class="hdrimg wow fadeInUp" alt="">
+  </div>
+
+  <div class="texture" id="texture">
+    <h6 class="monsizetext wow fadeInUp">Покрытие монитора</h6>
+    <p class="sl1 wow fadeInUp">__________</p>
+    <p class="monsizetext1 wow fadeInUp">Мониторы с матовым покрытием меньше бликуют и не отражают внешние источники света,
+       за счет чего им нужно меньше яркости. Глянцевые экраны предлагают лишь чуть более 
+       сочную картинку. Если бюджет на монитор  не ограничен, присмотритесь к мониторам с антибликовым  покрытием. Такие
+        экраны сочетают достоинства обеих технологий.</p>
+    <div class="shadow1"><img src="img/texture.jpg" class="treimg" alt=""></div>
+  </div>
+
+  <div class="port" id="port">
+    <h6 class="monsizetext wow fadeInUp">Разъемы подключения</h6>
+    <p class="sl1 wow fadeInUp">__________</p>
+    <p class="monsizetext1 wow fadeInUp">Частота обновления означает сколько раз в 
+      секунду монитор полностью перерисовывает и выдает изображение. Таким образом,
+       если у вас монитор с 60 Гц, то увидеть на мониторе больше 60 FPS не получится.
+        Чем больше частота обновления, тем плавнее передается движение. Но бытует вполне
+         мнение, что выше 60 Гц не каждому человеку нужно, потому что заметить и ощутить 
+         больше сможет только чуткий человек/киберспортсмен. Поэтому монитор имеет смысл 
+         брать с частотой 140 Гц.</p>
+    <div class="flex pt1">
+      <img src="img/port.jpg" class="portimg" alt="">
+      <div class="text">
+        <p class="monsizetext1 textright"><em>VGA (Video Graphics Array)</em> отметаем сразу — 
+          самый древний разъем, который передает только аналоговый сигнал в низком разрешении.</p>
+        <p class="monsizetext1 textright"><em>DVI (Digital Visual Interface)</em> — старый, но
+           благодаря нескольким итерациям актуальный тип подключения. Например, DVI-A 
+           передаёт только аналоговый сигнал, тогда как DVI–I аналог и цифру, а DVI-D
+            только цифру. В режиме Dual Link через разъем можно передать разрешение
+             вплоть до 2560×1600, но отсутствие звука делает технологию не универсальной.</p>
+        <p class="monsizetext1 textright"><em>HDMI</em> — золотой, полностью цифровой стандарт 
+          с поддержкой передачи звука. Тип подключения успел пережить несколько итераций,
+           в магазинах чаще всего встречаются мониторы с HDMI 1.4/2.0/2.1. Выше версия — 
+           выше пропускная способность. Последний представили в январе 2017-го, стандарт 
+           поддерживает вывод изображения в 10K с частотой обновления вплоть до 120 Гц.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="iarkost" id="iarkost">
+    <h6 class="monsizetext wow fadeInUp">Яркость и контрастность</h6>
+    <p class="sl1 wow fadeInUp">__________</p>
+    <p class="monsizetext1 wow fadeInUp">Традиционно яркость подсветки измеряют в канделах
+       на квадратный метр. Чем больше число в заявленных характеристиках, тем ярче экран.
+        Оптимальное значение для игрового монитора — 300 кд/м2.</p>
+    <p class="monsizetext1 wow fadeInUp">Говоря о яркости, нельзя не упомянуть контрастность.
+       Производители пошли на поводу маркетологов, после чего в документации к статической
+        контрастности добавилась динамическая. Обе характеризуют соотношение уровня белого
+         к уровню черного цвета. Уловка в том, что динамический берет за основу уровень
+          черного при минимальной подсветке (полностью выключенный экран) к уровню белого
+           при максимальной подсветке (яркость на полную).</p>
+    <p class="monsizetext1 wow fadeInUp">Надо ли говорить, что такие значения недостижимы 
+      в обычном пользовании, поэтому обращать внимание есть смысл исключительно на статическую
+       контрастность. Необходимый минимум — 1000:1. Больше — можно, меньше — ни в коем случае.</p>
+    <img src="img/iarkost.jpg" class="iarimg" alt="">
+  </div>
+
+  <div class="bottomlogo">
+    <p>Верстка сайта на html: olexander11441144@gmail.com .</p>
+  </div>
+
+
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.js"></script>
+  <script> new WOW().init();</script>
+</body>
+
+</html>

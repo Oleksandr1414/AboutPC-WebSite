@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Системнный блок</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="shortcut icon" href="img/icon_sysblock.png" type="image/x-icon">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="stylesystemblock.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Play|Roboto+Mono|Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+     
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+    $('.scrollup').fadeIn();
+    } else {
+    $('.scrollup').fadeOut();
+    }
+    });
+     
+    $('.scrollup').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+    });
+     
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 2000);
+    });
+    });
+    </script>
+
+</head>
+
+<body>
+
+  <a href="#" class="scrollup waves-effect"></a>
+  <a href="#" class="back waves-effect" onclick="javascript:history.back(); return false;""></a>
+
+  <nav id="menu" class="navbar fixed-top navbar-expand-xx navbar-light scrolling-navbar">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button"
+      data-toggle="collapse" data-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class=""><img src="https://img.icons8.com/color/26/000000/menu.png"></span>
+      </button>
+      <div class="cntr collapse navbar-collapse" id="navbarContent">
+         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+             <a href="#Corpus" class="nav-link waves-effect white-text wow fadeInDown">Корпус</a>
+          </li>
+          <li class="nav-item">
+             <a href="#Processor" class="nav-link waves-effect white-text wow fadeInDown">Процессор</a>
+          </li>
+           <li class="nav-item">
+             <a href="#Matplat" class="nav-link waves-effect white-text wow fadeInDown">Материнская плата</a>
+          </li>
+           <li class="nav-item">
+             <a href="#RAM" class="nav-link waves-effect white-text wow fadeInDown">Оперативная память</a>
+          </li>
+          <li class="nav-item">
+             <a href="#hdd" class="nav-link waves-effect white-text wow fadeInDown">Жесткий диск</a>
+          </li>
+          <li class="nav-item">
+             <a href="#Videocard" class="nav-link waves-effect white-text wow fadeInDown">Видеокарта</a>
+          </li>
+          <li class="nav-item">
+             <a href="#Powerblock" class="nav-link waves-effect white-text wow fadeInDown">Блок питания</a>
+          </li>
+          <li class="nav-item">
+             <a href="#Coldsystem" class="nav-link waves-effect white-text wow fadeInDown">Система охлаждения</a>
+          </li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="logo" id="PC">
+    <h1 class="logotext wow fadeInDown">Системный блок</h1>
+  </div>
+
+  <div class="corpus" id="Corpus">
+    <h6 class="corptext1 wow fadeInUp">Корпус</h6>
+    <p class="sl1 wow fadeInUp">__________</p>
+    <p class="corptext wow fadeInUp">Большенство геймеров предочитают вертикальные 
+        корпуса.</br>Из‐за положения в пространстве, такие 
+        корпуса называют башнями или tower. Существует мнение, что благодаря особенностям
+        компоновки деталей, внутри такой системник охлаждается лучше.</br>По назначению,
+        здесь можно найти варианты на все случаи жизни: от серверных решений до
+        «малышей», которые годятся разве что в качестве печатной машинки. Рассмотрим
+        наиболее популярные у нас вертикальные корпуса стандарта ATX.</p>
+    <div class="container2 wow fadeInUp">
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/corpus1.jpg" alt="">
+            </div>
+            <div class="details">
+                <h2>Full Tower</h2>
+                <p>Полная башня имеет ширину до 20 см, высоту до 60 см и длину до 1 м.
+                В ней может быть от 4 до 9 5,25-дюймовых отсеков (под оптический
+                привод), от 6 до 12 3,5- дюймовых отсеков (под винчестер). 
+                Позволяет установить до семи карт расширения – например, звуковую
+                плату или ресивер.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/corpus2.jpg" alt="">
+            </div>
+            <div class="details">
+                <h2>Big Tower</h2>
+                <p>Большая башня имеет четко регламентированные габариты – 
+                    190х482х820 мм. Так же, позволяет установить полноразмерную 
+                    системную плату ATX, однако места под начинку, уже меньше.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/corpus3.jpg" alt="">
+            </div>
+            <div class="details">
+                <h2>Midi Tower</h2>
+                <p>Средняя башня имеет размер 183х432х490 и является, пожалуй, самым 
+                    популярным у нас типом корпуса компьютера. Вмещает плату AT
+                    соответствующий блок питания, несколько жестких дисков. Считается 
+                    универсальным вариантом.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/corpus4.jpg" alt="">
+            </div>
+            <div class="details">
+                <h2>Mini Tower</h2>
+                <p>Мини башня имеет размеры 178х432х432. Сюда уже, вряд ли, удастся
+                    впихнуть мощные комплектующие, поэтому такой вариант больше
+                     подходит для рабочего компьютера или домашнего кинотеатра, 
+                    занимающего мало места. </p>
+            </div>
+        </div>
+    </div>
+  </div>
+    
+  <div class="processor" id="Processor">
+    <h6 class="proctext1 wow fadeInUp">Процессор</h6>
+    <p class="sl1 wow fadeInUp">__________</p>
+
+    <div class="socet">
+    <div class="text1">
+        <p class="proctext2 wow fadeInUp"><em class="fs25">Тип конструктивного разъема</em> – главный критерий,
+            который определяет выбор центрального процессора и материнской платы, в связке 
+            они образуют основу, «платформу» современного ПК.</p>
+       <p class="proctext2 wow fadeInUp">Больш подходяшчими чипесати есть LGA1151  и LGA1151-V2.
+       <p class="proctext2 wow fadeInUp">LGA1151. Десктопная платформа Intel прошлого поколения, которая позволяет использовать 
+           14-нанометровые процессоры с архитектурой Skylake.</br>Интересные возможности модели:
+           поддержка памяти стандарта DDR4, использование нескольких скоростных накопителей 
+           благодаря увеличенному количеству доступных чипсетов линий шины PCI Express 3.0.</p>
+       <p class="proctext2 wow fadeInUp">LGA1151-V2. Наиболее актуальная десктопная платформа от Intel для массового сегмента.
+           Внешне сокет сохранил форму своего предшественника, но вот электрически они не 
+           совместимы. Это важно обязательно учитывать при выборе процессора, так как сама 
+           Intel не разделяет данные типы сокетов.</p> 
+       <p class="proctext2 wow fadeInUp">Эта линейка привнесла перемены в 
+           количество ядер/потоков, которых так давно ждали пользователи. Как наиболее 
+           производительное решение, был представлен 8-ми ядерный процессор с поддержкой 
+           Hyper-Threading серии i9.</p>
+       <p class="proctext2 wow fadeInUp">Для максимального быстродействия, активной работы с графикой, решения 
+           специфических «тяжелых» задач или игр советую присмотреться к старшим 
+           CPU для платформ LGA1151-V2, LGA2066, AM4, sTR4. Эти же модели стоит выбирать 
+           тем, кто не согласен на компромиссы в настройках и диагонали монитора.</p>
+    </div>
+        <div class="imgall2">
+            <div class="imgall">
+                <div class="img1 wow fadeInUp"><img src="img/socet1.jpg" alt=""></div>
+            </div>
+            <div class="imghid">
+                <div class="img2 wow fadeInUp"><img src="img/iadra1.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="iadra">
+    <div class="imgall1">
+        <div class="img2 wow fadeInUp"><img src="img/iadra1.jpg" alt=""></div>
+    </div>
+    <div class="text2">
+    <p class="proctext3 wow fadeInUp"><em class="fs25">Количество ядер</em></p>
+    <p class="proctext3 wow fadeInUp">Отказ производителей от «гонки гигагерцев» и развитие
+         процессорной архитектуры привели к «гонке ядер». Разработчики программного 
+         обеспечения ее охотно и часто успешно поддерживают.</p>
+    <p class="proctext3 wow fadeInUp">Однако, как и в случае с гигагерцами, нельзя однозначно
+         сказать, что восемь ядер лучше четырех или двух:
+    <p class="proctext3 wow fadeInUp">► 4 ядра – это минимум, необходимый современному 
+        процессору чтобы эффективно удовлетворять пользовательские запросы;</p>
+    <p class="proctext3 wow fadeInUp">► 6-8 ядер – оптимальное количество.</p> 
+    <p class="proctext3 wow fadeInUp">На ПК с таким процессором можно спокойно 
+        обрабатывать графику, держать в фоне в активном режиме любимую игру, браузер 
+        со множеством вкладок и в случае необходимости постримить игровой процесс.</p>
+    </div>
+    </div>
+
+    <div class="rozgon">
+    <div class="text1">
+    <p class="proctext4 wow fadeInUp"><em class="fs25">Гнать или не гнать? Волшебная буква «К»</em></p>
+    <p class="proctext4 wow fadeInUp">Современный ПК – устройство, поддающееся гибкой 
+        настройке на аппаратном уровне. Процессоры и видеокарты чаще других поддаются
+        форсированию (разгону, «оверклокингу»).</br>Благодаря этой процедуре почти всегда 
+        можно получить незначительную прибавку производительности системы, а порой даже более
+        заметный прирост быстродействия.</p>
+    <p class="proctext4 wow fadeInUp">Если вы наслышаны об оверклокинге, есть опыт разгона 
+        компьютеров или вы хотели бы попробовать это в обозримом будущем – присмотритесь 
+        к CPU Intel с литерой «K» в названии.</p>
+    </div>
+    <div class="imgall">
+        <div class="img3 wow fadeInUp"><img src="img/socet4.jpg" alt=""></div>
+    </div>    
+    </div>
+ </div>
+
+  <div class="matplat" id="Matplat">
+    <div class="mattext">
+    <h6 class="proctext1 wow fadeInUp">Материнская плата</h6>
+    <p class="sl1 wow fadeInUp">________________</p>
+    <p class="ramtext wow fadeInUp">К материнской плате подключаются все остальные комплектующие, от нее зависит срок службы
+        и стабильность работы всего компьютера. Кроме того, она должна позволять подключить все
+        необходимые устройства и давать возможность улучшить компьютер в будущем.</p>
+    <p class="ramtext wow fadeInUp">У каждой материнской платы есть свой собственный процессор, который управляет всеми 
+        подключаемыми к ней устройствами и называется чипсетом. От чипсета зависит функциональность 
+        материнской платы и он выбирается в зависимости от процессора.</p>
+    <p class="ramtext wow fadeInUp">Для большинства компьютеров подойдут материнки на чипсетах B250/H270
+        и B360/H370. Но чипсеты Z имеют еще больше линий PCI-E, чем чипсеты H, позволяют разгонять
+        процессоры с индексом «K», поддерживают память с частотой выше 2400 МГц и объединение от 2 до 
+        5 дисков в RAID массив, что недоступно на других чипсетах. Они больше подходят для мощных
+        игровых и профессиональных ПК.</p>
+    <p class="ramtext wow fadeInUp">Современные материнские платы поддерживают память DDR4. Недорогие
+         материнки рассчитаны на более низкую максимальную частоту памяти (2400, 2666 МГц). Материнские 
+         платы среднего и высокого класса могут поддерживать память с более высокой частотой (3400-3600
+          МГц).</p>
+    </div>
+    <div class="matform">
+        <div class="card3">
+            <div class="img-box">
+                <img src="img/atx.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>ATX</h2>
+                <p>(305×244 мм) – полноразмерный формат материнской платы, является оптимальным для 
+                    стационарного компьютера, имеет наибольшее количество слотов, устанавливается в 
+                    корпуса ATX.</p>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="img-box">
+                <img src="img/microatx.png" alt="">
+            </div>
+            <div class="content">
+                <h2>MicroATX </h2>
+                <p>(244×244 мм) – уменьшенный формат материнской платы, имеет меньшее количество 
+                    слотов, устанавливается как в полноразмерные (ATX) корпуса, так и в более компактные
+                     корпуса (mATX).</p>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="img-box">
+                <img src="img/miniitx.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Mini-ITX </h2>
+                <p>(170×170 мм) – сверх компактные материнские платы для сборки очень маленьких ПК 
+                    в соответствующих корпусах. Следует учитывать, что такие системы имеют ряд
+                     ограничений по размеру компонентов и охлаждению.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="ram" id="RAM">
+    <div class="ramalltext">
+    <h6 class="proctext1 wow fadeInUp">Оперативная память</h6>
+    <p class="sl1 wow fadeInUp">________________</p>
+    <p class="ramtext wow fadeInUp"><em class="fs25">ОЗУ</em> - оперативное запоминающее устройство. Та деталь, которую многие из
+         нас недооценивают, когда выбирают новый или обновляют старый ПК. А ведь недостаток ОЗУ может 
+         серьёзно повлиять на уровень комфорта при работе с нашим ПК.</p>
+    <p class="ramtext wow fadeInUp">Для современных игр лучше устанавливать 16Гб ОЗУ.</br> 
+        Это будет лучшим решением с запасом на несколько лет. Игровые платы, обычно, комплектуются 
+        4-мя слотами для памяти и, скорее всего, <em>правильным</em> решением будет установить 4 планки по
+        4Гб. Это позволит уменьшить сумму затрат при выходе из строя одной планки. В играх очень
+        заметна разница между <em>одной планкой и двумя с одинаковым суммарным объемом</em>.</br></p>
+    <p class="ramtext wow fadeInUp">Однако, если Вы играете в более старые игры, или в новые, но не на высоких настройках,
+        можно установить и 8Гб ОЗУ. Ну или, в крайнем случае, 4Гб для совсем старых игр.</p>
+    </div>
+       <div class="container1">
+          <div class="box wow fadeInUp">
+              <div class="imgBx">
+                    <img src="img/ramddr3.jpg" alt="">
+              </div>
+              <div class="content">
+                    <h3>DDR3</h3>
+                    <p>Объем памяти: </br>2 ГБ - 32 ГБ</p>
+                    <p>Тактовая часотота: </br>1600 МГц - 2400 МГц</p>
+                    <p>Ранг:</br> одноранговая</p>
+                    <p>Висота планки:</br> 35 мм </p>
+                    <p>Разгон: поддерживает</p>
+                    <p>Тайминг: </br> от 7-7-7-21 до 10-10-10-30</p>
+                    <p>Поддержка DDR3 все встречается в относительно простых и недорогих «материнках».</p>
+              </div>
+          </div>
+          <div class="box wow fadeInUp">
+              <div class="imgBx">
+                    <img src="img/ramddr3l.jpg" alt="">
+              </div>
+              <div class="content">
+                    <h3>DDR3L</h3>
+                    <p>Объем памяти: </br>2 ГБ - 32 ГБ</p>
+                    <p>Тактовая часотота: </br>1600 МГц - 2133 МГц</p>
+                    <p>Ранг:</br> одноранговая</p>
+                    <p>Висота планки:</br> 35 мм </p>
+                    <p>Разгон: поддерживает</p>
+                    <p>Тайминг: </br> от  9-9-9-24 до 11-11-11-35</p>
+                    <p>Поддерживает работу на пониженном напряжении. 
+                    За счет сниженного напряжения удалось добиться некоторого роста производительности.</p>
+              </div>
+          </div>
+          <div class="box wow fadeInUp">
+              <div class="imgBx">
+                    <img src="img/ramddr4.jpg" alt="">
+              </div>
+              <div class="content">
+                    <h3>DDR4</h3>
+                    <p>Объем памяти: </br>4 ГБ - 64 ГБ</p>
+                    <p>Тактовая часотота: </br>2133 МГц - 4600 МГц</p>
+                    <p>Ранг:</br> одноранговая</p>
+                    <p>Висота планки:</br> 35 мм - 45 мм </p>
+                    <p>Разгон: поддерживает</p>
+                    <p>Тайминг: </br> от  14-14-14-34 до 16-18-18-38</p>
+                    <p>Является наиболее новым и продвинутым типом «оперативки» из широко применяемых в наше время.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="hdd" id="hdd">
+    <div class="hddtext">
+    <h6 class="proctext1 wow fadeInUp">Жесткий диск</h6>
+    <p class="sl1 wow fadeInUp">________________</p>
+    <p class="ramtext wow fadeInUp">Для гейминга идеальной будет связка HDD на 2 ТБ и более + SSD на 512 ГБ.</p>
+    <p class="ramtext wow fadeInUp">Жесткий диск «HDD» представляет собой запоминающее устройство,
+         которое записывает информацию на жёсткие алюминиевые или стеклянные пластины, покрытые слоем 
+         особого материала.</p>
+    <p class="ramtext wow fadeInUp">Твердотельный накопитель «SSD» являет собой немеханическое 
+        запоминающее устройство на основе полупроводниковой технологии флэш-памяти, используемой для 
+        записи и хранения информации.</p>
+    </div>
+    <div class="flex">
+        <div class="HDD wow fadeInUp">
+            <p class="textright">Характеристики HDD:</p>
+            <p class="textright">Скорость чтения</br>(150 Мб/с);</p>
+            <p class="textright">Время доступа;</br>(13-15 мс)</p>
+            <p class="textright">Объём буфера (кэш);</br>(32-128 Мб)</p>
+            <p class="textright">Уровень шума;</br>(производитель)</p>
+            <p class="textright">Надёжность;</br>(производитель)</p>
+            <p class="textright">Сопротивляемость ударам;</br>(материал)</p>
+        </div>
+        <div class="SSD wow fadeInUp">
+            <p class="textleft">Характеристики SSD:</p>
+            <p class="textleft">Скорость чтения</br>(450-500 Мб/с);</p>
+            <p class="textleft">Время доступа;</br>(в 100 раз меньше)</p>
+            <p class="textleft">Объём буфера (кэш);</br>(32-128 Мб)</p>
+            <p class="textleft">Уровень шума;</br>(производитель)</p>
+            <p class="textleft">Надёжность;</br>(производитель)</p>
+            <p class="textleft">Сопротивляемость ударам;</br>(материал)</p>
+        </div>
+    </div>
+    <div class="inteloptane">
+        <p class="opttext wow fadeInUp">Невозможно обойти стороной и память от Intel, <em>IntelOptane</em>.</p>
+        <p class="opttext wow fadeInUp">Память <em>Intel® Optane™</em> — это интеллектуальная технология, 
+            которая повышает быстродействие компьютера. Она запоминает часто используемые 
+            документы, фотографии и видео и ускоряет доступ к ним даже при включении
+             компьютера после отключения питания — это значит, что вы сможете работать, 
+             играть и заниматься творчеством, не теряя времени на ожидание.</p>
+    </div>
+    </div>
+
+    <div class="videocard" id="Videocard">
+    <div class="hddtext">
+    <h6 class="proctext1 wow fadeInUp">Видеокарта</h6>
+    <p class="sl1 wow fadeInUp">________________</p>
+    <p class="ramtext wow fadeInUp">Известно, что самым важным компонентом игрвого ПК, является игровая видеокарта. Она
+        обладает высокой вычислительной мощностью, необходимой для обработки и вывода
+        на экран качественного изображения с достаточной частотой кадров (FPS = от 
+        60 к/с). Именно видеокарта определяет в какие игры и с какими настройками 
+        качества изображения вы сможете играть.</p>
+    <p class="ramtext wow fadeInUp">На данний момент, в номинацие цена/производительность
+        занимает игровая видеокарта от NVIDIA, GTX 1660 Ti. Но если вам позволяет бюджет, 
+        то  NVIDIA GEFORCE RTX™ - это большой запас на будущее, а также встроенную
+         функцию трассировки лучей.</p>
+    </div>
+        
+    <div class="flex">
+        <div class="gtx1660ti wow fadeInUp">
+            <p class="textright">NVIDIA GTX 1660 Ti</p>
+            <p class="textright">Объем памяти:</br>6 ГБ</p>
+            <p class="textright">Время Разрядность шины:</br>192 бит</p>
+            <p class="textright">Частота работы GPU:</br>1800 МГц</p>
+            <p class="textright">Частота работы памяти:</br>12000 МГц </p>
+            <p class="textright">Поддержка CrossFire/SLI:</br>не поддерживает</p>
+            <p class="textright">Потоковых процессоров:</br>1536 </p>
+            <p class="textright">Текстурных блоков:</br>96 </p>
+            <p class="textright">Ray Tracing:</br>не поддерживает</p>
+            <p class="textright">Максимальное разрешение:</br>8K (7680 x 4320)</p>
+        </div>
+        <div class="gtx2080 wow fadeInUp">
+            <p class="textleft">NVIDIA GEFORCE RTX 2080/2060/2070/2080 Ti</p>
+            <p class="textleft">Объем памяти:</br>GDDR6, 8 ГБ (2080 Ti - 11 Гб) </p>
+            <p class="textleft">Время Разрядность шины:</br>256 бит</p>
+            <p class="textleft">Частота работы GPU:</br>1740 МГц</p>
+            <p class="textleft">Частота работы памяти:</br>14000 МГц </p>
+            <p class="textleft">Поддержка CrossFire/SLI:</br>поддерживает</p>
+            <p class="textleft">Потоковых процессоров:</br>2944</p>
+            <p class="textleft">Текстурных блоков:</br>184</p>
+            <p class="textleft">Ray Tracing:</br>поддерживает</p>
+            <p class="textleft">Максимальное разрешение:</br>8K (7680 x 4320)</p>
+        </div>
+    </div>
+    <div class="raytracing">
+        <p class="ramtext wow fadeInUp">Ray Tracing или трассировка лучей — одна из редких 
+        технологий компьютерной графики, принцип которой довольно просто объяснить.
+        Достаточно посмотреть вокруг: все, что мы видим — это отраженные от объектов 
+        лучи света, улавливаемые нашими глазами. Даже сейчас, когда вы читаете этот текст,
+        миллиарды фотонов достигают ваших зрительных органов, вся эта информация
+        обрабатывается мозгом, и из нее и создается «изображение» в вашей голове.</p>
+        <p class="ramtext wow fadeInUp">Как вы уже могли догадаться, Ray Tracing позволяет 
+        создавать невероятно реалистичное освещение, практически неотличимое от
+        реального. Алгоритм принимает во внимание, где именно луч света касается
+        объекта, учитывает свойства поверхности и вычисляет, как в таких случаях поведет
+        себя этот луч, где он начнет рассеиваться, где — отражаться от других объектов,
+        где сменит цвет, а где отбросит тень.</p>
+    </div>
+
+    </div>
+
+    <div class="powerblock" id="Powerblock">
+        <div class="hddtext">
+        <h6 class="proctext1 wow fadeInUp">Блок питания</h6>
+        <p class="sl1 wow fadeInUp">________________</p>
+        <p class="ramtext wow fadeInUp">Чтобы обеспечить стабильную работу любой компьютерной системы, необходимо
+        правильно подобрать блок питания для ПК, который сможет обеспечить необходимые 
+        значения напряжения и тока для каждого компонента компьютера даже при значительных
+        пиковых нагрузках. Рассмотрим основные характеристики, которые следует учитывать
+        при выборе оптимальной модели питающего устройства.</p>
+        </div>
+
+        <div class="pbchar wow fadeInUp">
+            <p class="ptextright wow fadeInUp"><span class="fs25">Сколько нужно мощности:</span></br>советую воспользоватся
+                калькулятором, он поможет узнать минимальную мощность что будет потреблять 
+                ваш пк  </br><a class="culc" target="_blank" href="https://www.bequiet.com/ru/psucalculator">Калькулятор</a></p>
+            <p class="ptextright wow fadeInUp"><span class="fs25">Форм-фактор:</span></br>под ваш корпус</p>
+            <p class="ptextright wow fadeInUp"><span class="fs25">Тип подключения:</span></br>► <em>модульный</em> (соединительные провода 
+                подключаются к блоку питания по необходимости только к установленным
+                 компонентам);</br> ► <em>стандартный</em> (поставляется в комплекте с несъемной связкой проводов с 
+                наиболее часто используемыми разъемами).</p>
+            <p class="ptextright wow fadeInUp"><span class="fs25">Безшумность:</span></br>В блоках питания
+                 с активным охлаждением используются вентиляторы разных диаметров (80, 120 и
+                  140 мм). При этом, чем больше диаметр лопастей, тем они лучше охлаждают и 
+                  меньше создают шума. </p>
+        </div>
+
+        <div class="hddtext1">
+            <p class="p1ramtext wow fadeInUp"><span class="fs25">Энергоэффективность и КПД</span></p>
+            <p class="p1ramtext wow fadeInUp">Этот показатель определяется как отношение потребляемой 
+                мощности к выходной. Чтобы облегчить выбор наиболее эффективного устройства 
+                существует стандарт Energy Star 4.0, согласно которому минимальный КПД не
+                 должен быть меньше 80%, а питающие устройства условно разделены на несколько
+                  категорий:</p>
+            <p class="p1ramtext wow fadeInUp">80 Plus (КПД не ниже 80%);</p>
+            <p class="p1ramtext wow fadeInUp">80 Plus Bronze (коэффициент превышает 82%);</p>
+            <p class="p1ramtext wow fadeInUp">80 Plus Silver (для устройств с эффективностью более 85%);</p>
+            <p class="p1ramtext wow fadeInUp">80 Plus Gold (КПД превышает 87%);</p>
+            <p class="p1ramtext wow fadeInUp">80 Plus Platinum (значение КПД не менее 90%).</p>
+            <p class="p1ramtext wow fadeInUp">Не сертифицированные по этой шкале блоки питания с 
+                показателями КПД ниже 80% используются в бюджетных системах. При выборе
+                 питающего устройства следует учитывать, что максимальная энергоэффективность
+                  обеспечивается при 50% нагрузке на устройство.</p>
+        </div>
+    </div>
+    
+    <div class="coldsystem" id="Coldsystem">
+        <div class="hddtext">
+        <h6 class="proctext1 wow fadeInUp">Система охлаждения</h6>
+        <p class="sl1 wow fadeInUp">________________</p>
+        <p class="ramtext wow fadeInUp">Естественно, что с ростом тактовой частоты
+             увеличивается температура на всех компонентах, - это законы физики. 
+             Слишком высокая температура может стать причиной термического повреждения
+              кристалла процессора. Именно поэтому в современных компьютерах на 
+              аппаратном уровне реализован целый ряд защитных механизмов, направленных
+               на то что бы уберечь процессор от повреждения в случае перегрева. </p>
+        <p class="ramtext wow fadeInUp">Один из таких механизмов называется Троттлинг
+            (от английского throttling): чем выше температура на кристалле процессора,
+            тем больше машинных тактов он пропускает. Такты пропускаются,
+            соответственно снижается эффективность и производительность – это и есть 
+            троттлинг процессора. </p>
+        <p class="ramtext wow fadeInUp">Наверное, больш подходящим решением для охлаждение игрвого
+             ПК будет: установка <em>водяного охлаждения и парочку кулеров</em>.</p>
+        </div>
+
+        <div class="h2o">
+            <div class="text11">
+                <p class="proctext2 wow fadeInUp"><span class="fs26">Системы Водяного Охлаждения</span></p>
+                <p class="proctext2 wow fadeInUp">Системы жидкостного охлаждения (СЖО)
+                    или системы водяного охлаждения (СВО) – решение для тех, кто знает
+                    цену каждому дополнительному мегагерцу. Качественная СВО способна
+                    подарить тишину, несколько сотен дополнительных мегагерц.</p>
+                <p class="proctext2 wow fadeInUp">Что же такое эта СВО? Само название говорит за
+                    себя. В системе СВО в качестве теплоносителя используется вода. 
+                    То есть сначала тепло от нагревающих элементов передается напрямую
+                    в воду, в отличии от воздушного, где передача происходит сразу
+                    в воздух.</p>
+                <p class="proctext2 wow fadeInUp">Но это лишь старт. Безусловно удобное и компактное 
+                    решение не всегда дает выжать максимум производительности и раскрыть
+                    потенциал процессора. Тогда на помощь приходят системы водяного 
+                    охлаждения, которые собираются по компонентам – “кастомные”, от
+                    англ. custom (custom-made) - изготовленные на заказ, системы 
+                    водяного охлаждения. </p>
+            </div>
+            <div class="imgall3">
+                <div class="img4 wow fadeInUp"><img src="img/h2o.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+  <div class="bottomlogo">
+    <p>Верстка сайта на html: olexander11441144@gmail.com .</p>
+  </div>
+
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.js"></script>
+  <script> new WOW().init();</script>
+</body>
+
+</html>
