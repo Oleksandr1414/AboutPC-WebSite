@@ -1,0 +1,536 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar{
+    background-color: rgba(7, 0, 0, 0.842);
+    justify-content: center;
+}
+.container{
+    text-align: center;
+}
+
+.cntr {
+    display: flex;
+    justify-content: center;
+}
+.cntr ul{
+    width: 100%;
+    justify-content: center;
+}
+.cntr li{
+    font-size: 18px; 
+    color: white;
+    padding: 0px 50px 0px 50px;
+}
+.cntr a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    padding-left: 7%; 
+    padding-right: 7%;
+    height: 950px;
+    width: 100%;
+    background-image: url(img/gamingsetup3.jpg);
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.703);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 40%;
+}
+.logotext {
+    text-decoration: bold;
+    padding-top: 15%; 
+    font-size: 180px;
+    color: white;
+    text-align: center;
+    text-shadow: 7px 7px 2px rgba(0, 0, 0, 0.788);
+    line-height: 1.2;
+}
+.comp{
+    padding-left: 7%; 
+    padding-right: 7%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-image: url(img/pcof21.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    background-position-y: bottom;
+    background-size: 44%;
+    background-color: rgb(250, 245, 231);
+}
+.comptext {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 26px;
+}
+.sl {
+    text-decoration: bold;
+    text-align: center;
+    font-size: 100px;
+    line-height: 0.00001;
+    color: rgb(255, 81, 0);
+    padding-bottom: 3%;
+}
+.comptext1{
+    width: 58%;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 7%;
+
+}
+
+.systembl{
+    height: auto;
+    width: 100%;
+    padding-bottom: 4%;
+    background-color: rgb(247, 231, 218);
+    background-image: url(img/sys1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: -70%;
+    background-position-y: bottom;
+    background-size: contain;
+}
+.systext{
+    font-size: 55px;
+    text-align: right;
+    padding-right: 7%;
+    padding-top: 26px;
+}
+.sl1 {
+    text-decoration: bold;
+    padding-right: 7%;
+    text-align: right;
+    font-size: 100px;
+    line-height: 0.00001;
+    color: rgb(255, 81, 0);
+    padding-bottom: 3%;
+}
+.punctsys {
+    padding-right: 7%;
+    font-size: 25px;
+    text-align: right;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.punctsys:hover {
+    font-size: 50px;
+}
+.readnextr {   
+    text-align: right;
+    color: black;
+    padding-top: 2%;
+    padding-right: 9%;
+    font-size: 25px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.readnextr:hover {
+    color: rgb(211, 63, 5);
+    font-size: 50px;
+    transition: 0.4s;
+}
+
+.monitor{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    padding-bottom: 4%;
+    background-image: url(img/monitor1.png);
+    background-repeat: no-repeat;
+    background-position-x: 870px;
+    background-position-y: center;
+    background-size: contain;
+}
+.sl2 {
+    text-decoration: bold;
+    padding-left: 7%;
+    text-align: left;
+    font-size: 100px;
+    line-height: 0.00001;
+    color: rgb(255, 81, 0);
+    padding-bottom: 3%;
+}
+.montext{
+    font-size: 55px;
+    text-align: left;
+    padding-left: 7%;
+    padding-top: 26px;
+}
+.monptext1{  
+    font-size: 34px;
+    text-align: left;
+    padding-left: 7%;
+    padding-bottom: 1%;
+}
+.monptext{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 7%;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.monptext:hover {
+    font-size: 50px;
+}
+
+.readnextl {   
+    text-align: left;
+    color: black;
+    padding-top: 2%;
+    padding-left: 9%;
+    font-size: 25px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.readnextl:hover {
+    color: rgb(211, 63, 5);
+    font-size: 50px;
+    transition: 0.4s;
+}
+
+.scrollup{
+    width:40px;
+    height:40px;
+    position:fixed;
+    bottom:90px;
+    right:90px;
+    display:none;
+    text-indent:-9999px;
+    background: url(img/icon_top.png) no-repeat;
+    background-size:contain; 
+}
+
+.headset{
+    width: 100%;
+    height: auto;
+    padding-bottom: 4%;
+    background-image: url(img/headset2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: -42%;
+    background-size: contain;
+    background-color: rgb(253, 237, 234);
+}
+.headtext{
+    font-size: 55px;
+    text-align: right;
+    padding-right: 7%;
+    padding-top: 26px;
+}
+.headtext1 {
+    padding-right: 7%;
+    font-size: 25px;
+    text-align: right;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.headtext1:hover {
+    font-size: 50px;
+}
+.readnextr {   
+    text-align: right;
+    color: black;
+    padding-top: 2%;
+    padding-right: 9%;
+    font-size: 25px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.readnextr:hover {
+    color: rgb(211, 63, 5);
+    font-size: 50px;
+    transition: 0.4s;
+}
+
+.bottomlogo{
+    padding: 5px 0 5px 0;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(15, 15, 15);
+}
+/* optimizacia */
+
+@media(max-width: 1800px){
+    .logotext{
+        font-size: 160px;
+    }
+    .systembl{
+        background-position-x: -500px;
+        background-position-y: 10%;
+    }
+    .headset{
+        background-position-x: -420px;
+    }
+    .comp{
+        background-position-y: center; 
+    }
+    .comptext1{
+        padding-left: 2%;
+    }
+    .sl, .sl1, .sl2{
+        font-size: 96px;
+    }
+    .systext, .punctsys,.headtext,.headtext1, .sl1{
+        padding-right: 3%;
+    }
+    .headset{
+        background-position-x: -500px;
+    }
+    .monptext,.monptext,.monptext1,.sl2{
+        padding-left: 3%;
+    }
+}
+@media (max-width: 1400px){
+
+    .logotext{
+        font-size: 120px;
+        padding-top: 30%;
+    }
+    .comp{
+        padding-left: 40px; 
+        padding-right: 40px;
+    }
+    .comptext, .systext, .montext, .headtext{
+        font-size: 40px;
+    }
+    .comptext1{
+        font-size: 19px;
+    } 
+        .punctsys ,.monptext, .headtext1{
+        font-size: 20px;
+    }
+    .headtext1:hover, .punctsys:hover, .monptext:hover, .readnextl:hover, .readnextr:hover{
+        font-size: 35px;
+    }
+    .monptext1{
+        font-size: 28px;
+    }
+    .systembl{
+        background-size: 150%;
+        background-position-x: -870px;
+        background-position-y: bottom;
+    }
+    .headset{
+        background-position-x: -420px;
+    }
+    .monitor{
+        background-position-x: 500px;
+    }
+    .sl1,.sl2,.sl{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 996px){
+
+    .logo{
+        height: 900px;
+    }
+    .logotext{
+        font-size: 80px;
+        padding-top: 35%;
+    }
+    .comp{
+        padding-left: 20px; 
+        padding-right: 20px;
+        background-position-y: center;
+    }
+    .comptext, .systext, .montext, .headtext{
+        font-size: 23px;
+    }
+    .comptext1, .punctsys ,.monptext, .headtext1{
+        font-size: 16px;
+    }
+    .headtext1:hover, .punctsys:hover, .monptext:hover, .readnextl:hover, .readnextr:hover{
+        font-size: 19px;
+    }
+    .readnextl, .readnextr{
+        font-size: 15px;
+    }
+    .monptext1{
+        font-size: 19px;
+    }
+    .systembl{
+        background-size: cover;
+        background-position-x: -900px;
+        background-position-y: center;
+    }
+    .headset{
+        background-position-x: -320px;
+    }
+    .monitor{
+        background-position-x: 450px;
+    }
+    .sl1, .sl, .sl2{
+        font-size: 50px;
+    }
+}
+@media(max-width: 850px){
+    .logotext{
+        padding-top: 42%;
+        font-size: 80px;
+    }
+    .comp{
+        padding: 1%;
+        padding-bottom: 45%;
+        background-position-y: bottom;
+        background-position-x: center;
+    }
+    .comptext1{
+        width: 100%;
+    }
+    .systembl{
+        background-position-x: -950px
+    }
+    .monitor{
+        background-position-x: 410px;
+    }
+    .bottomlogo{
+        font-size: 15px;
+    }
+}
+@media (max-width:710px){
+    .logo{
+        height: 820px; 
+    }
+    .logotext{
+        font-size: 60px;
+    }
+    .systembl{
+        background-position-x: -1070px;
+    }
+    .headset{
+        background-position-x: -500px;
+        background-size: 150%;
+        background-position-y: bottom;
+    }
+}
+@media (max-width: 590px){
+
+    .logo{
+        height: 670px;
+    }
+    .logotext{
+        font-size: 60px;
+        padding-top: 40%;
+    }
+    .systembl,.monitor,.headset{
+        padding: 1%;
+        padding-bottom: 4%;
+    }
+    .comptext, .systext, .montext, .headtext, .punctsys{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .comptext1{
+        width: 100%;
+    }
+    .comptext1, .punctsys ,.monptext, .headtext1{
+        font-size: 14px;
+        text-align: center;
+    }
+    .headtext1:hover, .punctsys:hover, .monptext:hover, .readnextl:hover, .readnextr:hover{
+        font-size: 17px;
+    }
+    .readnextl, .readnextr{
+        font-size: 13px;
+        text-align: center;
+    }
+    .readnextr{
+        color: snow;
+    }
+    .readnextl{
+        padding: 0;
+    }
+    .montext{
+        padding: 12px 0 0 0;
+    }
+    .sl2, .monptext1, .monptext{
+        padding: 0;
+    }
+    .monptext1{
+        font-size: 17px;
+        text-align: center;
+        padding-top: 12px;
+    }
+    .monitor{
+        background-image: url(img/dualmonitor.jpg);
+        color: snow;
+        width: 100%;
+        background-position-x: center;
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-size: contain;
+    }
+    .readnextl{
+        color: snow;
+    }
+    .systembl{
+        color: snow;
+        background-image: url(img/sys.jpg);
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.703);
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+    }
+    .headset{
+        color: snow;
+        background-image: url(img/headset1.jpg);
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.703);
+        background-position-x: center;
+        background-position-y: bottom;
+        background-size: cover;
+    }
+    .sl1, .sl, .sl2{
+        font-size: 50px;
+        text-align: center;
+    }
+    .sl{
+        font-size: 20px;
+    }
+    .scrollup{
+        bottom:40px;
+        right:40px;
+    }
+    .bottomlogo{
+        padding: 5px 0 5px 0;
+        font-size: 12px;
+    }
+}

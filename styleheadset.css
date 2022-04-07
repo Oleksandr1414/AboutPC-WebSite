@@ -1,0 +1,79 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar{
+    background-color: rgba(19, 16, 0, 0.842);
+    justify-content: center;
+}
+.container{
+    text-align: center;
+}
+
+.cntr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cntr ul{
+    width: 100%;
+    justify-content: center;
+}
+.cntr li{
+    font-size: 18px; 
+    color: white;
+    padding: 0px 50px 0px 50px;
+}
+.cntr a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    padding-left: 7%; 
+    padding-right: 7%;
+    height: 950px;
+    width: 100%;
+    background-image: url(img/headset.jpg);
+    background-color: rgba(0, 0, 0, 0.703);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.logotext {
+    text-decoration: bold;
+    padding-top: 15%; 
+    font-size: 180px;
+    color: white;
+    text-align: center;
+    text-shadow: 7px 7px 2px rgba(0, 0, 0, 0.788);
+    line-height: 1.2;
+}
+
+.scrollup{
+    width:40px;
+    height:40px;
+    position:fixed;
+    bottom:90px;
+    right:90px;
+    display:none;
+    text-indent:-9999px;
+    background: url(img/icon_top.png) no-repeat;
+    background-size:contain; 
+}
+
+.bottomlogo{
+    line-height: 3.2;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(15, 15, 15);
+}

@@ -1,0 +1,1034 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar{
+    background-color: rgba(27, 27, 27, 0.842);
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%; 
+    margin: 0;
+    text-align: center;
+}
+.cntr {
+    display: flex;
+    justify-content: center;
+}
+.cntr ul{
+    width: 100%;
+    justify-content: center;
+}
+.cntr li{
+    font-size: 18px; 
+    color: white;
+    padding: 0px 50px 0px 50px;
+}
+.cntr a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    padding-left: 7%; 
+    padding-right: 7%;
+    height: 950px;
+    width: 100%;
+    background-image: url(img/systemblock1.jpg);
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.703);
+    background-blend-mode: darken;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: 40%;
+}
+.logotext {
+    text-decoration: bold;
+    padding-top: 15%; 
+    font-size: 180px;
+    color: white;
+    text-align: center;
+    text-shadow: 7px 7px 2px rgba(0, 0, 0, 0.788);
+    line-height: 1.2;
+}
+
+.scrollup{
+    width:45px;
+    height:45px;
+    position:fixed;
+    bottom:90px;
+    right:90px;
+    display:none;
+    z-index: 99;
+    text-indent:-9999px;
+    background: url(img/icon_top.png) no-repeat;
+    background-size:contain; 
+}
+
+.back{
+    width:45px;
+    height:45px;
+    position:fixed;
+    bottom:90px;
+    left:90px;
+    display:none;
+    z-index: 99;
+    text-indent:-9999px;
+    background: url(img/icon_back.png) no-repeat;
+    background-size:contain; 
+}
+
+.bottomlogo{
+    line-height: 1;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    padding: 1% 0 2% 0;
+    background-color: rgb(15, 15, 15);
+}
+@media (max-width: 1899.98px) {
+    .navbar-expand-xx > .container,
+    .navbar-expand-xx > .container-fluid {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  
+  @media (min-width: 1900px) {
+    .navbar-expand-xx {
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+    }
+    .navbar-expand-xx .navbar-nav {
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+    .navbar-expand-xx .navbar-nav .dropdown-menu {
+      position: absolute;
+    }
+    .navbar-expand-xx .navbar-nav .nav-link {
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+    }
+    .navbar-expand-xx > .container,
+    .navbar-expand-xx > .container-fluid {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+    .navbar-expand-xx .navbar-collapse {
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+    }
+    .navbar-expand-xx .navbar-toggler {
+      display: none;
+    }
+  }
+
+@media (max-width: 1899.98px) {
+  .navbar-expand-xx > .container,
+  .navbar-expand-xx > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1900px) {
+  .navbar-expand-xx {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-xx .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .navbar-expand-xx .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-xx .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-xx > .container,
+  .navbar-expand-xx > .container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-xx .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+  .navbar-expand-xx .navbar-toggler {
+    display: none;
+  }
+}
+
+.corpus{
+    background: rgb(206, 212, 224);
+    width: 100%;
+    height: auto;
+}
+.corptext1{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 26px;
+}
+.sl1 {
+    text-decoration: bold;
+    text-align: center;
+    font-size: 100px;
+    line-height: 0.00001;
+    color: rgb(42, 63, 245);
+    padding-bottom: 3%;
+}
+.corptext{
+    padding: 1% 7% 1% 7%;
+    font-size: 25px;
+    text-align: center;
+}
+.container2{
+    max-width: 100%;
+    margin: 0 7% 0 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    position: relative;
+    margin: 20px 0;
+    width: 380px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    transition: 1s;
+    border: 2px  solid rgb(149, 171, 214);
+    box-shadow: inset 260px 0 50px rgba(0, 0, 0, .5);
+}
+.card:hover{
+    z-index: 1000;
+    transform: perspective(2000px) rotate(-5deg);
+    box-shadow: inset 10px 0 50px rgba(0, 0, 0, .5);
+}
+.card .imgBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px 1px 1px 1px solid black;
+    box-sizing: border-box; 
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+}
+.card:hover .imgBox{
+    transform: rotateY(-135deg);
+}
+.card .imgBox img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.card .details{
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.ram{
+    width: 100%;
+    height: auto;
+    background-color: rgb(221, 236, 255);
+}
+.ramtext{
+    padding: 0 7% 0 7%;
+    font-size: 22px;
+    text-align: center;
+}
+.ramalltext{
+    padding-top: 5px;
+    padding-bottom: 1%;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    padding-bottom: 4%;
+}
+.box{
+    margin: 5px;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: black;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+}
+.box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.box:hover .imgBx img{
+    opacity: 0;
+}
+.box .content{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: rgb(166, 208, 228);
+    transition: 0.5s;
+    overflow: hidden;
+
+    padding: 15px;
+    box-sizing: border-box;
+}
+.box:hover .content{
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.box .content p{
+    font-size: 16px;
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: right;
+}
+.box:hover .content p{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+
+.processor{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(188, 195, 214);
+}
+.processor img{
+    height: 390px;
+    width: 580px;
+    box-shadow: 20px 15px 15px 5px rgba(22, 22, 22, 0.685);
+}
+.socet, .h2o, .iadra, .rozgon, .imgall2{
+    display: flex;
+}
+.proctext1{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 26px;
+}
+.text1, .text11{
+    width: 62%;
+    padding-top: 1%;
+    padding-left: 7%;
+    padding-right: 4%;
+}
+.text2{
+    width: 55%;
+    padding-left: 7%;
+}
+.imgall, .imgall1{
+    padding-top: 1%; 
+}
+.img1{
+    padding-top: 20%;
+    padding-left: 2%;
+}
+.img1 img{
+    height: 410px;
+    width: 600px;
+}
+.img2{
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-bottom: 40px;
+}
+.img3{
+    padding-top: 0%;
+    padding-left: 2%;
+    padding-bottom: 10%;
+}
+.imghid{
+    display: none;
+}
+.fs25{
+    font-size: 25px;
+}
+.iadra{
+    width: 100%;
+    padding-top: 20px;
+}
+.proctext2{
+    width: 100%;
+    padding-left: 7%;
+    font-size: 20px;
+    text-align: justify;
+}
+.proctext3{
+    padding-left: 4%; 
+    width: 100%;
+    padding-right: 10%;
+    font-size: 20px;
+    text-align: justify;
+}
+.proctext4{
+    width: 100%;
+    padding-left: 7%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.matplat{
+    width: 100%;
+    height: auto;
+    background-color: rgb(180, 203, 255);
+}
+.matform{
+    position: relative;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;  
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    padding-bottom: 4%;
+   /* display: grid;
+    grid-auto-flow: initial;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 550px;
+    grid-gap: 40px;*/
+}
+.matform .card3{
+    margin: 5px auto 5px auto;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.753);
+    width: 450px;
+    height: 540px;
+    position: relative;
+    background: #000;
+    overflow: hidden; 
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.matform .card3 .img-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.matform .card3 h2{
+    color: snow;
+    padding: 10px;
+    text-align: center;
+    font-size: 36px
+}
+.matform .card3 p{
+    color: snow;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px
+}
+.matform .card3:hover .img-box{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+
+}
+.matform .card3 .img-box img{
+    width: 100%;
+    height: 100%;
+}
+.matform .card3 .content{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: -100%;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+}
+.matform .card3:hover .content{
+    bottom: 0;
+}
+.matform .card3:nth-child(1) .content{
+    background: linear-gradient(0deg, rgba(175, 232, 255, 0.781), transparent);
+}
+.matform .card3:nth-child(2) .content{
+    background: linear-gradient(0deg, rgba(175, 207, 255, 0.781), transparent);
+}
+.matform .card3:nth-child(3) .content{
+    background: linear-gradient(0deg, rgba(175, 187, 255, 0.781), transparent);
+}
+.matform .card3:hover .content{
+    bottom: 0;
+}
+
+.hdd{
+    width: 100%;
+    height: auto;
+    background-color: rgb(213, 222, 253);
+}
+.hddtext{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.HDD{
+    width: 50%;
+    height: auto;
+    background-image: url(img/hdd.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: left;
+    background-position-y: center;
+}
+.SSD{
+    width: 50%;
+    height: auto;
+    background-image: url(img/ssd.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 300px;
+    background-position-y: center;
+}
+.flex{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.textright{
+    padding-right: 5%;
+    font-size: 18px;
+    text-align: right;
+}
+.textleft{
+    padding-left: 5%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.inteloptane{
+    width: 100%;
+    height: auto;
+    background-image: url(img/inteloptane1.jpg);
+    background-repeat: round;
+    background-position-y: center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(2, 2, 2, 0.67);
+    padding-top: 5%;
+    padding-right: 4%;
+    padding-bottom: 7%;
+}
+.opttext{
+    padding-left: 40%; 
+    padding-right: 7%;
+    color: snow;
+    font-size: 25px;
+    text-align: right;
+}
+
+.videocard{
+    width: 100%;
+    height: auto;
+    background-color: rgb(145, 167, 192);
+}
+.raytracing{
+    padding: 5% 7% 4% 7%;
+    color: snow;
+    height: auto;
+    width: 100%;
+    background-image: url(img/raytracingfon1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(2, 2, 2, 0.55);
+}
+.gtx1660ti{
+    width: 50%;
+    height: auto;
+    color: black;
+    background-image: url(img/gtx1660ti.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: -1100%;
+    background-position-y: center;
+}
+.gtx2080{
+    width: 50%;
+    height: auto;
+    color: black;
+    background-image: url(img/gtx2080.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 250px;
+    background-position-y: center;
+}
+.powerblock{
+    width: 100%;
+    height: auto;
+    background-color: rgb(127, 161, 255);
+}
+.pbchar{
+    width: 100%;
+    height: auto;
+    background-image: url(img/powerblock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: left;
+    background-position-y: center;
+}
+.ptextright{
+    padding-left: 47%;
+    padding-right: 14%;
+    font-size: 19px;
+    text-align: right;
+}
+.ptextright a{
+    color: blue;
+    transition: 0.5s;
+}
+.ptextright a:hover{
+    color: rgb(0, 89, 255);
+    font-size: 25px;
+}
+.fs25{
+    font-size: 25px;
+}
+.fs26{
+    font-size: 26px;
+}
+.p1ramtext{
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 19px;
+    text-align: justify;
+}
+.coldsystem{
+    width: 100%;
+    height: auto;
+    background-color: rgb(197, 208, 255);
+    padding-bottom: 4%;
+}
+.img4 img{
+    height: 600px;
+    width: 700px;
+    padding-right: 7%;
+}
+.h2o{
+    padding-top: 10px;
+}
+.hddtext1{
+    padding-top: 10px;
+    padding-bottom: 3%;
+    background-color: rgb(137, 167, 252);
+}
+
+/* optimizacia */
+
+@media (max-width: 1870px){
+    .img1 img, .img3 img{
+        width: 570px;        
+        height: auto;
+    }
+    .gtx1660ti{
+        background-position-x: -330px;
+    }
+    .pbchar{
+        background-position-x: -100px;
+    }
+    .HDD{
+        background-position-x: -30px;
+    }
+}
+
+@media (max-width: 1601px){
+    .logotext{
+        font-size: 149px;
+    }
+    .proctext2, .proctext3, .proctext4, .ramtext{
+        font-size: 18px;
+    }
+    .corptext, .opttext {
+        font-size: 21px;
+    }
+    .fs25{
+        font-size: 20px;
+    }
+    .img1 img, .img3 img{
+        width: 520px;        
+        height: auto;
+    }
+    .sl1{
+        font-size: 80px;
+    }
+    .HDD{
+        background-position-x: 30px;
+    }
+    .gtx1660ti{
+        background-position-x: -330px;
+    }
+    .HDD{
+        background-position-x: -60px;
+    }
+}
+@media (max-width: 1450px){   
+    .HDD{
+        background-position-x: -100px;
+    }
+    .hddtext, .text11{
+        padding: 1%;
+    }
+    .text1, .text2, .ramtext, .corptext{
+        padding: 1%;
+    }
+    .img2{
+        padding-left: 7%;
+    }
+    .img1 img, .img3 img{
+        width: 470px;
+        height: auto;
+    }
+    .ptextright{
+        padding-right: 4%;
+    }
+    .p1ramtext{
+        padding: 0 4% 0 4%;
+    }
+    .scrollup{
+        width:42px;
+        height:42px;
+        bottom:35px;
+        right:35px;
+    }
+    .back{
+        width:42px;
+        height:42px;
+        bottom:35px;
+        left:35px;
+    }
+}
+@media(max-width: 1315px){
+    .logo{
+        height: 860px;
+    }
+    .logotext{
+        font-size: 127px;
+    }
+    .HDD{
+        background-position-x: -170px;
+    }
+    .pbchar{
+        background-position-x: -220px;
+    }
+    .img4{
+        padding-top: 10px;
+        padding-left: 2%;
+    }
+    .socet{
+        display: block;
+    }
+    .proctext2, .proctext4, .proctext3{
+        padding: 0 1% 0 1%;
+    }
+    .text1, .text2{
+        width: 100%;
+        padding: 1%;
+    }
+    .imgall{
+        padding: 1%;
+        order: 2;
+    }
+    .img1, .img2{
+        padding: 1%;
+    }
+    .img1 img, .img2 img{
+        width: 100%;
+        height: auto;
+    }
+    .img3{
+        text-align: center;
+    }
+    .imghid{
+        display: unset;
+    }
+    .imgall, .imghid{
+        padding: 1px;
+        margin: 0;
+        justify-content: center;
+    }
+    .imgall2{
+        justify-content: space-around;
+    }
+    .imgall1{
+        display: none;
+    }
+    .img3 img{
+        width: 489px;
+    }
+    .scrollup{
+        width:42px;
+        height:42px;
+        bottom:35px;
+        right:35px;
+    }
+    .back{
+        width:42px;
+        height:42px;
+        bottom:35px;
+        left:35px;
+    }
+}
+@media (max-width: 1280px){
+    .h2o{
+        display: block;
+    }
+    .text11{
+        padding: 1%;
+        margin: 0;
+        width: 100%;
+    }
+    .proctext2{
+        width: 100%;
+        padding: 0 1% 0 1%;
+    }
+    .imgall3{
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .img4 img{
+        padding: 0;
+        box-shadow: 30px 30px 30px black;
+        width: 80%;
+        height: auto;
+    }   
+    .bottomlogo{
+        font-size: 18px;
+    }
+    .scrollup{
+        width:40px;
+        height:40px;
+        bottom:40px;
+        right:40px;
+    }
+    .back{
+        width:40px;
+        height:40px;
+        bottom:40px;
+        left:40px;
+    }
+}
+@media(max-width: 1150px){
+    .pbchar{
+        padding-bottom: 60%;
+        background-position: bottom;
+    }
+    .ptextright{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .flex{
+        display: block;
+    }
+    .HDD{
+        background-position-x: left;
+    }
+    .gtx1660ti, .gtx2080, .HDD, .SSD{
+        width: 100%;
+        padding: 1%;
+        margin: 0;
+    }
+}
+@media(max-width: 901px){
+    .logo{
+        background-position-y: 60px;
+        height: 650px;
+    }
+    .logotext{
+        padding-top: 25%;
+        font-size: 86px;
+    }
+    .corptext, .proctext2, .ramtext{
+        font-size: 18px;
+    }
+    .corptext1, .proctext1{
+        font-size: 35px;
+    }
+    .sl1{
+        font-size: 50px;
+    }
+    .rozgon{
+        display: block;
+    }
+    .img3{
+        padding: 0;
+        text-align: center;
+        padding-bottom: 4%;
+    }
+    .opttext{
+        padding: 0 1% 0 1%;
+        text-align: center;
+    }
+    .inteloptane{
+        padding: 3%;
+    }
+    .processor img{
+        box-shadow: 10px 10px 15px 5px rgba(22, 22, 22, 0.685);
+    }
+    .raytracing{
+        padding: 1%;
+    }
+    .HDD{
+        background-position-x: -120px;
+    }
+    .scrollup{
+        width:35px;
+        height:35px;
+        bottom:40px;
+        right:40px;
+    }
+    .back{
+        width:35px;
+        height:35px;
+        bottom:40px;
+        left:40px;
+    }
+}
+
+@media(max-width: 620px){
+    .logo{
+        height: 500px;
+    }
+    .logotext{
+        font-size: 60px;
+    }
+    .corptext1, .proctext1{
+        font-size: 21px;
+    }
+    .corptext, .p1ramtext, .ptextright, .opttext, .textright, .textleft, .proctext2, .proctext3, .proctext4, .ramtext{
+        font-size: 15px;
+    }
+    .fs25, .fs26{
+        font-size: 18px;
+    }
+    .card{
+        height: 320px;
+        width: 340px;
+    }
+    .card p{
+        font-size: 15px;
+    }
+    .matform .card3{
+        width: 390px;
+        height: 480px;
+    }
+    .matform .card3 p {
+        font-size: 20px;
+    }
+    .box {
+        width: 340px;
+        height: 390px;
+    }
+    .box .content p{
+        font-size: 14px;
+    }
+    .scrollup{
+        width:35px;
+        height:35px;
+        bottom:40px;
+        right:40px;
+    }
+    .back{
+        width:35px;
+        height:35px;
+        bottom:40px;
+        left:40px;
+    }
+    .bottomlogo{
+        font-size: 20px;
+    }
+    .gtx1660ti{
+        background-position-x: -280px;
+    }
+    .HDD{
+        background-position-x: -150px
+    }
+    .SSD{
+        background-position-x: 180px;
+    }
+}
+@media (max-width: 565px){
+    .img3 img{
+        width: 90%;
+    }
+}
+@media (max-width: 430px){
+    .logotext{
+        font-size: 50px;
+        padding-top: 40%;
+    }
+    .sl1{
+        font-size: 33px;
+    }
+    .gtx1660ti{
+        background-position-x: -249px;
+    }
+    .gtx2080{
+        background-position-x: 200px;
+    }
+    .HDD{
+        background-position-x: -150px
+    }
+    .SSD{
+        background-position-x: 180px;
+    }
+}

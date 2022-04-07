@@ -1,0 +1,650 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar{
+    background-color: rgba(17, 0, 4, 0.842);
+    justify-content: center;
+}
+.container{
+    text-align: center;
+}
+
+.cntr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cntr ul{
+    width: 100%;
+    justify-content: center;
+}
+.cntr li{
+    font-size: 18px; 
+    color: white;
+    padding: 0px 50px 0px 50px;
+}
+.cntr a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid white;
+}
+
+@media (max-width: 1661.98px) {
+    .navbar-expand-xx > .container,
+    .navbar-expand-xx > .container-fluid {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  
+  @media (min-width: 1662px) {
+    .navbar-expand-xx {
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+    }
+    .navbar-expand-xx .navbar-nav {
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+    .navbar-expand-xx .navbar-nav .dropdown-menu {
+      position: absolute;
+    }
+    .navbar-expand-xx .navbar-nav .nav-link {
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+    }
+    .navbar-expand-xx > .container,
+    .navbar-expand-xx > .container-fluid {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+    .navbar-expand-xx .navbar-collapse {
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+    }
+    .navbar-expand-xx .navbar-toggler {
+      display: none;
+    }
+  }
+
+@media (max-width: 1661.98px) {
+  .navbar-expand-xx > .container,
+  .navbar-expand-xx > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1662px) {
+  .navbar-expand-xx {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-xx .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .navbar-expand-xx .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-xx .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-xx > .container,
+  .navbar-expand-xx > .container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-xx .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+  .navbar-expand-xx .navbar-toggler {
+    display: none;
+  }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding-left: 7%; 
+    padding-right: 7%;
+    height: 950px;
+    width: 100%;
+    background-image: url(img/monitor2.jpg);
+    background-color: rgba(0, 0, 0, 0.703);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 40%;
+}
+.logotext {
+    text-decoration: bold;
+    padding-top: 15%; 
+    font-size: 180px;
+    color: white;
+    text-align: center;
+    text-shadow: 7px 7px 2px rgba(0, 0, 0, 0.788);
+    line-height: 1.2;
+}
+
+.scrollup{
+    width:40px;
+    height:40px;
+    position:fixed;
+    bottom:90px;
+    right:90px;
+    display:none;
+    text-indent:-9999px;
+    background: url(img/icon_top.png) no-repeat;
+    background-size:contain; 
+}
+
+.bottomlogo{
+    padding-bottom: 1%;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(15, 15, 15);
+}
+.bottomlogo p{
+   padding-top: 2%;
+}
+
+.back{
+  width:45px;
+  height:45px;
+  position:fixed;
+  bottom:90px;
+  left:90px;
+  display:none;
+  z-index: 99;
+  text-indent:-9999px;
+  background: url(img/icon_back.png) no-repeat;
+  background-size:contain; 
+}
+
+.monsize{
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+  background-color: rgb(255, 232, 232);
+}
+.sl1 {
+  text-decoration: bold;
+  text-align: center;
+  font-size: 100px;
+  line-height: 0.00001;
+  color: rgb(119, 24, 40);
+  padding-bottom: 3%;
+}
+.monsizetext{
+  font-size: 55px;
+  text-align: center;
+  padding-top: 26px;
+}
+.monsizetext1{
+  padding: 0 7% 0 7%;
+  font-size: 24px;
+  text-align: center;
+}
+.textleft{
+  text-align: left;
+  padding-left: 7%;
+  padding-right: 50%;
+}
+.textright{
+  text-align: right;
+  padding-right: 7%;
+}
+.msizeimg{
+  text-align: center;
+  padding: 0 8% 0 8%;
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+.triplemon{
+  width: 100%;
+  height: auto;
+  background-image: url(img/doublemonitor.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.displaysize{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+  background-color: rgb(255, 244, 244);
+}
+.dsizeimg{
+  text-align: center;
+  padding: 0 11% 0 11%;
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.matriza{
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+  background-color: rgb(253, 224, 238);
+}
+.monsizetext2{
+  padding: 0 7% 1% 7%;
+  font-size: 33px;
+  text-align: center;
+}
+.matrizatn, .matrizaips, .matrizava{
+  position: relative;
+  width: 30%;
+  height: auto;
+}
+.flex p{
+  text-align: center;
+  font-size: 20px;
+}
+.fs23{
+  font-size: 23px;
+}
+.flex .left{
+  text-align: left;
+}
+.flex{
+  padding: 0 7% 0 7%;
+  justify-content: space-between;
+  display: flex;
+}
+.matimg{
+  width: 44%;
+  height: 500px;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.703);
+}
+.matimg1{
+  width: 44%;
+  height: 500px;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.703);
+}
+.portimg{
+  width: 43%;
+  height: auto;
+}
+.pt1{
+  padding-top: 1%;
+  padding-bottom: 46px;
+}
+.hdr{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 4%;
+  background-color: rgb(255, 239, 246);
+}
+.texture{
+  width: 100%;
+  height: auto;
+  padding-bottom: 4%;
+  text-align: center;
+  background-color: rgba(252, 228, 242, 0.925);
+}
+.shadow1{
+  width: 100%;
+  height: auto;
+  padding: 1% 20% 46px 20%;
+}
+.treimg{
+  width: 100%;
+  height: auto;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.795);
+
+}
+.hdrimg{
+  padding: 1% 7% 4% 7%;
+  width: 100%;
+  height: auto;
+}
+.port{
+  width: 100%;
+  height: auto;
+  padding-bottom: 4%;
+}
+.iarkost{
+  width: 100%;
+  height: auto;
+  padding-bottom: 4%;
+  background-color: rgb(252, 237, 244);
+  text-align: center;
+}
+.iarimg{
+  width: 100%;
+  height: auto;
+  padding: 0 7% 0 7%;
+}
+
+@media(max-width: 1880px){
+  .triplemon{
+    background-position-x: 800px;
+  }
+}
+
+@media (max-width: 1601px){
+  .monsizetext{
+    font-size: 53px;
+  }
+  .monsizetext1{
+    font-size: 22px;
+  }
+  .sl1{
+    font-size: 96px;
+  }
+}
+
+@media (max-width: 1450px){
+  .monsizetext{
+    font-size: 50px;
+  }
+  .monsizetext1{
+    font-size: 19px;
+  }
+  .sl1{
+    font-size: 90px;
+  }
+  .flex p{
+      font-size: 18px;
+  }
+  .triplemon{
+    background-position-x: 700px;
+  }
+}
+
+@media (max-width: 1280px){
+  .monsizetext{
+    font-size: 45px;
+  }
+  .monsizetext1{
+    font-size: 17px;
+  }
+  .sl1{
+    font-size: 80px;
+  }
+  .flex p{
+      font-size: 16px;
+  }
+  .matimg, .matimg1{
+      height: 400px;
+  }
+  .portimg{
+    width: 36%;
+    height: 300px;
+  }
+  .logotext{
+    padding-top: 20%;
+    font-size: 160px;
+  }
+  .logo{
+    height: 900px;
+  }
+  .triplemon{
+    background-position-x: 600px;
+  }
+}
+
+@media (max-width: 1060px){
+  .monsizetext{
+    font-size: 45px;
+  }
+  .monsizetext1{
+    font-size: 17px;
+  }
+  .monsizetext2, .monsizetext1{
+    padding: 0 2% 0 2%;
+  }
+  .textleft{
+    padding-right: 40%;
+  }
+  .sl1{
+    font-size: 80px;
+  }
+  .flex p{
+      font-size: 16px;
+  }
+  .matimg, .matimg1{
+      height: 400px;
+      box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.703);
+  }
+  .portimg{
+    padding-top: 60px;
+    width: 36%;
+    height: 300px;
+  }
+  .flex{
+    padding: 0 3% 30px 3%;
+  }
+  .logo{
+    height: 800px;
+  }
+  .logotext{
+    padding-top: 30%;
+    font-size: 120px;
+  }
+}
+@media(max-width: 980px){
+  .triplemon{
+    background-position-x: 550px;
+  }
+}
+@media (max-width: 800px){
+  .monsizetext{
+    font-size: 37px;
+  }
+  .fs23{
+    font-size: 16px;
+  }
+  .monsizetext1{
+    font-size: 15px;
+  }
+  .monsizetext2{
+    font-size: 21px;
+  }
+  .monsizetext2, .monsizetext1{
+    padding: 0 2% 0 2%;
+  }
+  .sl1{
+    font-size: 60px;
+  }
+  .flex p{
+    font-size: 14px;
+  }
+  .matimg{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.703);
+  }
+  .matimg1{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.703);
+  }
+  .portimg{
+    padding-top: 0;
+    padding-left: 10%;
+    padding-bottom: 10px;
+    width: 90%;
+    height: auto;
+  }
+  .flex{
+    padding: 0 3% 10px 3%;
+    display: block;
+  }
+  .matrizaips, .matrizatn, .matrizava{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .logo{
+    height: 700px;
+  }
+  .logotext{
+    padding-top: 30%;
+    font-size: 100px;
+  }
+  .bottomlogo{
+    font-size: 17px;
+    height: 70px;
+  }
+  .textleft{
+    padding-right: 40%;
+  }
+  .triplemon{
+    background-position-x: 430px;
+  }
+}
+@media(max-width: 670px){
+  .triplemon{
+    background-position-x: 380px;
+  }
+}
+
+@media (max-width: 600px){
+  .monsizetext{
+    font-size: 33px;
+  }
+  .fs23{
+    font-size: 14px;
+  }
+  .monsizetext1{
+    font-size: 13px;
+  }
+  .monsizetext2{
+    font-size: 21px;
+  }
+  .monsizetext2, .monsizetext1{
+    padding: 0 2% 0 2%;
+  }
+  .sl1{
+    font-size: 30px;
+  }
+  .flex p{
+    font-size: 12px;
+  }
+  .matimg{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.703);
+  }
+  .matimg1{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.703);
+  }
+  .portimg{
+    padding-top: 0;
+    padding-left: 10%;
+    padding-bottom: 10px;
+    width: 90%;
+    height: auto;
+  }
+  .flex{
+    padding: 0 3% 10px 3%;
+    display: block;
+  }
+  .matrizaips, .matrizatn, .matrizava{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .logo{
+    height: 600px;
+  }
+  .logotext{
+    padding-top: 40%;
+    font-size: 90px;
+  }
+  .bottomlogo{
+    font-size: 15px;
+    height: 70px;
+  }
+  .bottomlogo p{
+    padding-top: 10px;
+  }
+  .triplemon{
+    padding-bottom: 350px;
+    background-position-y: bottom;
+    background-position-x: -10px;
+  }
+  .scrollup{
+    width:35px;
+    height:35px;
+    bottom:40px;
+    right:40px;
+}
+  .back{
+    width:35px;
+    height:35px;
+    bottom:40px;
+    left:40px;
+}
+}
+
+@media(max-width: 570px){
+  .logo{
+    height: 500px;
+  }
+  .logotext{
+    padding-top: 40%;
+    font-size: 70px;
+  }
+  .triplemon{
+    padding-bottom: 320px;
+  }
+  .monsizetext{
+    font-size: 30px;
+  }
+}
+@media(max-width: 450px){
+  .logo{
+    height: 500px;
+  }
+  .logotext{
+    padding-top: 40%;
+    font-size: 60px;
+  }
+  .triplemon{
+    padding-bottom: 260px;
+  }
+}
+@media(max-width: 370px){
+  .logo{
+    height: 500px;
+  }
+  .logotext{
+    padding-top: 50%;
+    font-size: 50px;
+  }
+  .triplemon{
+    padding-bottom: 220px;
+  }
+}
